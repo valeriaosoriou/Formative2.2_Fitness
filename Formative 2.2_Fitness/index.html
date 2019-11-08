@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--ICONS library-->
+    <script src="https://use.fontawesome.com/releases/v5.10.2/js/all.js" data-auto-replace-svg="nest"></script>
+	<!--CSS link-->
+    <link rel="stylesheet" href="css/style.css">
+
+	<title>NZ Muscle</title>
+</head>
+
+
+
+<body>
+<!-- FIRST SECTION-->
+	<div class="section-landing">
+		<img class="img-landing" src="images/gymWebb.jpg">
+		<div class="container-logo">
+			<img class="logo" src="images/nzMuscleLogo.png" alt="logo">
+		</div>
+		
+		<header class="jumbotron">
+			<nav class="nav-bar sticky-top">
+				<ul class="nav nav-pills nav-fill">
+					<li class="nav-item">
+						<a class="nav-link" href="#sectionExcercises">All Excercises</a>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link" data-toggle="collapse" href="#filters">Filter</a>
+						
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pro version</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- MENU DROP DOWN-->
+			<div id="filters" class="collapse">
+				<div class="container">
+					<div class="row">
+						<div class="col-3"><!--col 1-->
+							<p><strong>Muscle Group</strong></p>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Chest</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Quadriceps</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Hamstrings</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Glutes</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Abdominals</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Triceps</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Biceps</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Calves</label></div>
+							<br>
+						</div><!-- end col-->
+						<div class="col-3"><!--col 2-->
+							<p><strong>Body Section</strong></p>
+								<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Upper Body</label></div>
+								<br>
+								<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Lower Body</label></div>
+								<br>	
+						</div>
+						<div class="col-3"><!--col 3-->
+							<p><strong>Excercise Type</strong></p>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Compund</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Isolated</label></div>
+							<br>	
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">N/A</label></div>
+							<br>
+						</div>
+						<div class="col-3"><!--col 4-->
+							<p><strong>Mechanics Type</strong></p>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Strenght</label></div>
+							<br>
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Powerlifting</label></div>
+							<br>	
+							<div class="checkbox"><label class="label-checkbox"><input type="checkbox" value="">Stretching</label></div>
+							<br>	
+						</div>
+					</div><!-- end row-->
+					<div><a href="#sectionExcercises"><i class="fas fa-times"></i></a></div>
+				</div><!-- end container menu-->
+    		</div>
+		</header>
+
+
+		<h1 class="slogan-txt"><strong>Learn</strong> from the experts</h1>
+		<h1 class="slogan-txt"><strong>Find</strong> what you need</h1>
+		
+		<div class="scroll-icon"><a href="#sectionExcercises"><i class="fas fa-chevron-down"></a></i></div><!--scroll down to second section-->
+
+	</div> <!-- end of landing section-->
+
+
+<!-- SECOND SECTION-->
+
+	<div id="sectionExcercises" class="section-excercises container-fluid"> <!-- ID to scroll down when clickling in the close, arrow and all excercises-->
+		<div class="row"><!-- ROW-->
+			<div class="col-3 col-style"><!--COL1-->
+
+				<div class="card"><!--CARD1-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestOne.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Dumbbell Bench Press</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Chest<br>
+						    <strong>Body Section:</strong> Upper<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+				    	<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card1">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card1" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Dumbbell Bench Press</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				  	</div>
+				</div>
+				<br>
+				<div class="card"><!--CARD4-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestOne.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Single Leg Press</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Quadriceps<br>
+						    <strong>Body Section:</strong> Lower<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+				    	<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card4">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card4" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Single Leg Press</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				  	</div>
+				</div>
+				<br>
+
+				<div class="card"><!--CARD7-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestOne.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Barbel Deadlift</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Hamstrings<br>
+						    <strong>Body Section:</strong> Lower<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+						<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card7">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card7" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Barbel Deadlift</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				  	</div><!-- end of card-body-->
+				</div><!-- end of card-->
+				<br>
+			</div><!-- end of col-->
+
+
+			<div class="col-3"><!--COL 2-->
+				<div class="card"><!--CARD2-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestTwo.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Incline Dumbbell Press</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Chest<br>
+						    <strong>Body Section:</strong> Upper<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+				    	<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card2">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card2" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Incline Dumbbell Press</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				  	</div><!-- end of card-body-->
+				</div><!-- end of card-->
+				<br>
+				<div class="card"><!--CARD5-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestOne.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Barbell Full Squat</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Chest<br>
+						    <strong>Body Section:</strong> Upper<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+				    	<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card5">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card5" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Barbell Full Squat</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				  	</div>
+				</div>
+				<br>
+
+				<div class="card"><!--CARD8-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestOne.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Sumo Deadlift</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Hamstrings<br>
+						    <strong>Body Section:</strong> Lower<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+						<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card8">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card8" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Sumo Deadlift</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				  	</div><!-- end of card-body-->
+				</div><!-- end of card-->
+				<br>
+			</div><!-- end of col-->
+
+			<div class="col-3"><!--COL 3-->
+				<div class="card"><!--CARD3-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestThree.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Barbell Bench Press</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Chest<br>
+						    <strong>Body Section:</strong> Upper<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+				    	<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card3">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card3" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Barbell Bench Press</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				  	</div>
+				</div>
+				<br>
+				
+				<div class="card"><!--CARD6-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestOne.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Snatch</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Chest<br>
+						    <strong>Body Section:</strong> Upper<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+						<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card6">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card6" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Snatch</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				    	
+				  	</div><!-- end of card-body-->
+				</div><!-- end of card-->
+				<br>
+
+				<div class="card"><!--CARD9-->
+					<a href="#" class="card-link"><i class="far fa-heart"></i></a> <!-- likes-->
+					<img src="images/chestOne.jpg" class="card-img-top" alt="chest, gym">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Natural Glute Hamraise</h5>
+				    	<p class="card-text">
+				    		<strong>Muscle Group:</strong> Chest<br>
+						    <strong>Body Section:</strong> Upper<br>
+						    <strong>Excercise type:</strong> Strength<br>
+						    <strong>Mecanics type:</strong> Isolation<br>
+						</p>
+						<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#card9">Instructions</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="card9" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h4 class="modal-title">Natural Glute Hamraise</h4>
+						        		</div>
+						        		<div class="modal-body">
+						         			<img src="images/chestTwoIns.jpg">
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				    	
+				  	</div><!-- end of card-body-->
+				</div><!-- end of card-->
+				<br>
+
+			</div><!-- end of col-->
+
+			<div class="col-3"><!--COL4 FAVOURITES-->
+				<div class="card"><!--card-->
+					<div class="card-header"><strong>Favourites</strong>
+					</div>
+						<div><i class="fas fa-heart"></i>
+						</div>
+					<div class="card-body">
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<p class="card-text">Dumbbell Bench Press</p>
+						<!--MODAL INSTRUCTIONS-->
+				    	<div class="container">
+							<!-- Trigger the modal with a button -->
+						  	<button class="btn btn-secondary" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#membershipModal">Print Workout</button>
+							<!-- Modal -->
+						  	<div class="modal fade" id="membershipModal" role="dialog">
+						    	<div class="modal-dialog">
+						    	<!-- Modal content-->
+						      		<div class="modal-content">
+						        		<div class="modal-header">
+						          			<h2 class="modal-title">Membership</h2>
+						        		</div>
+						        		<div class="modal-body">
+						        			<br>
+						         			<div>
+						         				<h4 class="font-modal">Unlimited access to our full Excercises Library high-energy, effective workouts, anytime, anywhere</h4>
+						         				<img class="img-modal-membership" src="images/membership.jpg">
+						         			</div><br>
+						         			<div>
+						         				<button class="btn btn-secondary btn-buy-one">Start Now</button>
+						         				<button class="btn btn-secondary">Start Now</button>
+						         			</div>
+						        		</div>
+						        		<div class="modal-footer">
+						        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        		</div>
+						      		</div>
+						    	</div>
+							</div><!-- end of modal fade-->
+						</div><!-- end of MODAL CONTAINER-->
+				  	</div><!-- end of card-body-->
+				</div><!-- end of card-->
+				<br>
+			</div><!-- end of col4-->
+
+		
+
+
+
+
+
+
+
+
+	</div> <!-- end of excercises section-->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</body>
+</html>

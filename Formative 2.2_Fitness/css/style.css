@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	
+}
+
+body{
+	background-color: #000000;
+}
+
+.section-landing{
+	width: 1920px;
+	height: 1080px;
+	
+}
+.img-landing{
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1; /*to send image behind the content*/
+}
+.logo{
+	position: absolute;
+	top: 0px;
+	right: 0px;	
+	height: 14rem;
+}
+
+
+.jumbotron{
+	background-color: #e9ecef;
+	margin-top: 14rem;
+	padding: 1rem 2rem;
+	/*margin-top: 10rem;*/
+	opacity: 63%;
+}
+.nav-link{
+	font-size: 50px;
+}
+
+.slogan-txt{
+	font-size: 4.5rem;
+	color: white;
+    position: relative;
+    top: 26rem;
+    margin-left: 3rem;
+    
+}
+
+
+.scroll-icon{
+	font-size: 7rem;
+	color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 900px;
+}
+
+/*COL*/
+.col-style{
+	margin-left: 70px;
+}
+.col-3{
+	max-width: 23%;
+}
+}
+/*CARD*/
+.card{
+	width: 18rem;
+}
+.fa-heart{
+	font-size: 22px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    color: #007bff;
+}
+
+.custom-control-label{
+	float: left;
+}
+
+.menu-title{
+	float: left;
+}
+
+/*MENU ELEMENTS*/
+/*CLOSE MENU ICON*/
+.fa-times{
+	font-size: 52px;
+    float: right;
+}
+.label-checkbox{
+	float: left;
+}
+.chekbox{
+	float: left;
+}
+
+/*SECOND SECTION
+.section-excercises{
+	background-color: pink;
+}*/
+
+/*MODAL- MEMBERSHIP*/
+.modal-dialog{
+	max-width: 1000px;
+}
+
+.img-modal-membership{
+	margin-left: 95px;
+}
+.btn-buy-one{
+	margin-left: 200px;
+    margin-right: 340px;
+}
+.font-modal{
+	font-weight: 300;
+	margin-left: 40px;
+}
+
+.modal-header {
+	background-color: #C8C8C8;
+}
+
+.modal-footer{
+	background-color: #F8F8F8;
+}
